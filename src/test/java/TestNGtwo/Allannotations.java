@@ -20,6 +20,7 @@ public class Allannotations {
 	@AfterSuite
 	void as() {
 		System.out.println("this is after suite method");
+		System.out.println("this is after suite method");
 	}
 	
 	@BeforeTest
