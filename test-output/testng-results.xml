@@ -1,61 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-20T15:15:06 ADT" name="Default suite" finished-at="2023-08-20T15:15:06 ADT" duration-ms="260">
+  <suite started-at="2024-01-03T16:24:43 AST" name="Default suite" finished-at="2024-01-03T16:25:30 AST" duration-ms="46948">
     <groups>
     </groups>
-    <test started-at="2023-08-20T15:15:06 ADT" name="Default test" finished-at="2023-08-20T15:15:06 ADT" duration-ms="260">
-      <class name="TestNGtwo.Allannotations">
-        <test-method is-config="true" signature="bs()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="bs" finished-at="2023-08-20T15:15:06 ADT" duration-ms="51" status="PASS">
+    <test started-at="2024-01-03T16:24:43 AST" name="Default test" finished-at="2024-01-03T16:25:30 AST" duration-ms="46948">
+      <class name="TestNG.NewTest3">
+        <test-method signature="login()[pri:0, instance:TestNG.NewTest3@5bb7643d]" started-at="2024-01-03T16:24:45 AST" name="login" finished-at="2024-01-03T16:24:52 AST" duration-ms="7408" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bs -->
-        <test-method is-config="true" signature="m()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="m" finished-at="2023-08-20T15:15:06 ADT" duration-ms="3" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="employeeInformation()[pri:1, instance:TestNG.NewTest3@5bb7643d]" started-at="2024-01-03T16:24:52 AST" name="employeeInformation" finished-at="2024-01-03T16:24:59 AST" depends-on-methods="TestNG.NewTest3.login" duration-ms="6750" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m -->
-        <test-method is-config="true" signature="cls()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="cls" finished-at="2023-08-20T15:15:06 ADT" duration-ms="3" status="PASS">
+        </test-method> <!-- employeeInformation -->
+        <test-method signature="addNewEmployee()[pri:2, instance:TestNG.NewTest3@5bb7643d]" started-at="2024-01-03T16:24:59 AST" name="addNewEmployee" finished-at="2024-01-03T16:25:15 AST" depends-on-methods="TestNG.NewTest3.employeeInformation" duration-ms="16017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cls -->
-        <test-method is-config="true" signature="mt()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="mt" finished-at="2023-08-20T15:15:06 ADT" duration-ms="2" status="PASS">
+        </test-method> <!-- addNewEmployee -->
+        <test-method signature="editEmployeeInformation()[pri:2, instance:TestNG.NewTest3@5bb7643d]" started-at="2024-01-03T16:25:15 AST" name="editEmployeeInformation" finished-at="2024-01-03T16:25:30 AST" depends-on-methods="TestNG.NewTest3.employeeInformation" duration-ms="15235" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mt -->
-        <test-method signature="abc()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="abc" finished-at="2023-08-20T15:15:06 ADT" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- abc -->
-        <test-method is-config="true" signature="mt2()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="mt2" finished-at="2023-08-20T15:15:06 ADT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mt2 -->
-        <test-method is-config="true" signature="mt()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="mt" finished-at="2023-08-20T15:15:06 ADT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mt -->
-        <test-method signature="xyz()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="xyz" finished-at="2023-08-20T15:15:06 ADT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- xyz -->
-        <test-method is-config="true" signature="mt2()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="mt2" finished-at="2023-08-20T15:15:06 ADT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mt2 -->
-        <test-method is-config="true" signature="cls2()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="cls2" finished-at="2023-08-20T15:15:06 ADT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cls2 -->
-        <test-method is-config="true" signature="n()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="n" finished-at="2023-08-20T15:15:06 ADT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- n -->
-        <test-method is-config="true" signature="as()[pri:0, instance:TestNGtwo.Allannotations@48075da3]" started-at="2023-08-20T15:15:06 ADT" name="as" finished-at="2023-08-20T15:15:06 ADT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- as -->
-      </class> <!-- TestNGtwo.Allannotations -->
+        </test-method> <!-- editEmployeeInformation -->
+      </class> <!-- TestNG.NewTest3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
